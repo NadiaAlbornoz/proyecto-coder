@@ -1,0 +1,257 @@
+/* comentarios: ctrl+k+u */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+.logo{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.logo:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+/* header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+
+}
+ul{
+    list-style-type: none;
+}
+li,a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navLink li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navLink li:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+}*/
+.tienda{
+    background-color: #fff;
+    padding:9px 25px;
+    border-radius: 50px;
+    color: #111;
+}
+.tienda:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+
+} 
+/* navbar bs */
+.encabezado {
+    background-color: #000;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* NAVBAR FINALIZA */
+/* baner */
+.fondo{
+    background-image: url(../imagenes/fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.textoCentral{
+    padding: 20px;
+    background-color: #000;
+    max-width: 80%;
+}
+.textoCentral h2{
+    color: #fff;
+    font-size:4rem;
+}
+.textoCentral p{
+    font-size:2rem;
+    color: #fea1a1;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+}
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #fea1a1;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 0 5px #000;
+}
+.redes {
+    color: #fea1a1;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+/* footer finaliza */
+
+/*contacto*/
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagenes/fondo.jpeg)
+}
+.contact-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 65px auto;
+    background-color: #eccdb4;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: block;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+.contacButton {
+    background-color: #fea1a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.contacButton:focus{
+    box-shadow: #fea1a1;
+    border: 5px solid #eccdb4;
+}
+.contacButton:hover {
+    background-color: #0c0c0c;
+}
+/* contacto finaliza */
+/* Servicios */
+.nuestrosServicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px
+}
+.nuestrosServicios img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+/* nosotros */
+h1 {
+    color: #fea1a1;
+    font-style: italic;
+    text-align: center;
+}
+/*productos*/
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+/* medias queries */
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        margin-top: 20px;
+    }
+    .nuestrosServicios{
+        grid-template-columns: 1fr 1fr;
+    }
+    .column{
+        flex:50% ;
+    }  
+}
+@media (max-width: 500px){
+    .nuestrosServicios{
+        grid-template-columns:1fr;
+    }
+    .column{
+        flex:70%;
+    }
+    .textoCentral h2{
+        font-size:2rem;
+    }
+}
