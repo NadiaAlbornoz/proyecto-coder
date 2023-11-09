@@ -1,0 +1,19 @@
+{
+  "name": "nadia-albornoz.-proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadiaAlbornoz/proyecto-coder.git"
+  },
+  "author": "leandro-wallbit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadiaAlbornoz/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/NadiaAlbornoz/proyecto-coder#readme",
+  "description": ""
+}

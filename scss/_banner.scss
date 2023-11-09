@@ -1,0 +1,27 @@
+/* banner */
+.fondo {
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.textoCentral {
+    padding: 20px;
+    background-color: #000;
+    max-width: 80%;
+
+    h2 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #fea1a1;
+        text-align: center;
+    }
+}

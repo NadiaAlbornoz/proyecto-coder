@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../imagenes/fondo.jpeg);
+}
+
+/*contacto*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 65px auto;
+    background-color: $color-beige;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: block;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+}
+
+.contacButton {
+    background-color: $color-rosita;
+    color: $color-blanco;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    &:focus {
+        box-shadow: #fea1a1;
+        border: 5px solid #eccdb4;
+    }
+
+    &:hover {
+        background-color: #0c0c0c;
+    }
+}
+
+/* Servicios */
+.nuestrosServicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px
+}
+
+.nuestrosServicios img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.h1 {
+    color: #fea1a1;
+}
+
+/* contacto finaliza */
+/* nosotros */
+
+h1 {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*productos*/
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+
+    img {
+        margin-top: 5px;
+    }
+}

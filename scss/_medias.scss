@@ -1,0 +1,33 @@
+/* medias queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 20px;
+    }
+
+    .nuestrosServicios {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .column {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .nuestrosServicios {
+        grid-template-columns: 1fr;
+    }
+
+    .column {
+        flex: 70%;
+    }
+
+    .textoCentral h2 {
+        font-size: 2rem;
+    }
+}
