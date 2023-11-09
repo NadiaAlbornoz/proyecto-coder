@@ -65,8 +65,8 @@ body {
 }
 
 .contacButton {
-    background-color: $color-rosita;
-    color: $color-blanco;
+    background-image: linear-gradient(#fea1a1,#fff);
+    color: #000;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -80,9 +80,11 @@ body {
         box-shadow: #fea1a1;
         border: 5px solid #eccdb4;
     }
+    &:hover{
+        height: 70px;
+        width: 80px;
+        transition: all;
 
-    &:hover {
-        background-color: #0c0c0c;
     }
 }
 
