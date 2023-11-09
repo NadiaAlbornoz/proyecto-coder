@@ -177,12 +177,15 @@ img {
 }
 .textoCentral h2 {
   color: #fff;
-  font-size: 4rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
 }
 .textoCentral p {
   font-size: 2rem;
   color: #fea1a1;
   text-align: center;
+  font-style: italic;
 }
 
 /* footer */
