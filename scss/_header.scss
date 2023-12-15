@@ -30,4 +30,9 @@
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
 }
